@@ -8,43 +8,46 @@ A modern, responsive dashboard application built with Next.js 15 and TailwindCSS
 
 ## Features
 
-- 🎨 **Clean UI**: Modern dashboard with professional design
-- 📊 **Dashboard Metrics**: Track credits, projects, videos, and render queue
-- 📁 **Project Management**: View and manage video projects
-- 📝 **Script Editor**: Create and manage video scripts
-- 🎬 **Media Library**: Organize media assets
-- 💳 **Billing**: Credit purchase and subscription management
-- ⚙️ **Settings**: User preferences and account settings
-- 📱 **Responsive Design**: Works seamlessly on all devices
+-   🎨 **Clean UI**: Modern dashboard with professional design
+-   📊 **Dashboard Metrics**: Track credits, projects, videos, and render queue
+-   📁 **Project Management**: View and manage video projects
+-   📝 **Script Editor**: Create and manage video scripts
+-   🎬 **Media Library**: Organize media assets
+-   💳 **Billing**: Credit purchase and subscription management
+-   ⚙️ **Settings**: User preferences and account settings
+-   📱 **Responsive Design**: Works seamlessly on all devices
 
 ## Tech Stack
 
-- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
-- **Styling**: [TailwindCSS](https://tailwindcss.com/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Package Manager**: npm
+-   **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+-   **Styling**: [TailwindCSS](https://tailwindcss.com/)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Package Manager**: npm
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ installed
-- npm or yarn
+-   Node.js 18+ installed
+-   npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd test-task
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Run the development server:
+
 ```bash
 npm run dev
 ```
@@ -80,32 +83,38 @@ test-task/
 ## Pages
 
 ### Dashboard (/)
-- Overview metrics with trend indicators
-- Recent activity timeline
-- Quick action buttons
+
+-   Overview metrics with trend indicators
+-   Recent activity timeline
+-   Quick action buttons
 
 ### Projects (/projects)
-- List of all video projects
-- Status indicators
-- Project statistics
+
+-   List of all video projects
+-   Status indicators
+-   Project statistics
 
 ### Scripts (/scripts)
-- Script management interface
-- Create new scripts
+
+-   Script management interface
+-   Create new scripts
 
 ### Media Library (/media-library)
-- Media asset organization
-- Upload functionality (UI only)
+
+-   Media asset organization
+-   Upload functionality (UI only)
 
 ### Billing (/billing)
-- Current subscription plan
-- Credit balance
-- Credit purchase options
+
+-   Current subscription plan
+-   Credit balance
+-   Credit purchase options
 
 ### Settings (/settings)
-- Profile settings
-- User preferences
-- Email notifications
+
+-   Profile settings
+-   User preferences
+-   Email notifications
 
 ## Development Notes
 
@@ -125,8 +134,7 @@ The app requires no environment variables for basic functionality.
 
 ## Screenshots
 
-![Dashboard](./screenshots/dashboard.png)
-*(Screenshots to be added)*
+![Dashboard](./dashboard.png)
 
 ## License
 
@@ -135,9 +143,10 @@ This project is created as a test task demonstration.
 ## Time Taken
 
 ⏱️ Approximately **45-60 minutes** including:
-- Project setup and configuration
-- Component development
-- Page implementation
-- Styling and responsive design
-- Testing and refinement
-- Documentation
+
+-   Project setup and configuration
+-   Component development
+-   Page implementation
+-   Styling and responsive design
+-   Testing and refinement
+-   Documentation
