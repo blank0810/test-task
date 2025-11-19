@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ClipFactory AI Dashboard
+
+A modern, responsive dashboard application built with Next.js 15 and TailwindCSS for managing video projects and content creation.
+
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+
+## Features
+
+- 🎨 **Clean UI**: Modern dashboard with professional design
+- 📊 **Dashboard Metrics**: Track credits, projects, videos, and render queue
+- 📁 **Project Management**: View and manage video projects
+- 📝 **Script Editor**: Create and manage video scripts
+- 🎬 **Media Library**: Organize media assets
+- 💳 **Billing**: Credit purchase and subscription management
+- ⚙️ **Settings**: User preferences and account settings
+- 📱 **Responsive Design**: Works seamlessly on all devices
+
+## Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Package Manager**: npm
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ installed
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd test-task
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+### Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+test-task/
+├── app/                      # Next.js App Router pages
+│   ├── layout.tsx           # Root layout with Sidebar & Header
+│   ├── page.tsx             # Dashboard homepage
+│   ├── projects/            # Projects page
+│   ├── scripts/             # Scripts page
+│   ├── media-library/       # Media library page
+│   ├── billing/             # Billing page
+│   └── settings/            # Settings page
+├── components/              # Reusable React components
+│   ├── Sidebar.tsx          # Navigation sidebar
+│   ├── Header.tsx           # Top header bar
+│   └── DashboardCard.tsx    # Metric card component
+└── public/                  # Static assets
+```
 
-## Deploy on Vercel
+## Pages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Dashboard (/)
+- Overview metrics with trend indicators
+- Recent activity timeline
+- Quick action buttons
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Projects (/projects)
+- List of all video projects
+- Status indicators
+- Project statistics
+
+### Scripts (/scripts)
+- Script management interface
+- Create new scripts
+
+### Media Library (/media-library)
+- Media asset organization
+- Upload functionality (UI only)
+
+### Billing (/billing)
+- Current subscription plan
+- Credit balance
+- Credit purchase options
+
+### Settings (/settings)
+- Profile settings
+- User preferences
+- Email notifications
+
+## Development Notes
+
+See [DEVELOPMENT.md](./DEVELOPMENT.md) for detailed development notes, architecture decisions, and implementation details.
+
+## Deployment
+
+### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone)
+
+1. Push your code to GitHub
+2. Import the repository in Vercel
+3. Vercel will auto-detect Next.js and deploy
+
+The app requires no environment variables for basic functionality.
+
+## Screenshots
+
+![Dashboard](./screenshots/dashboard.png)
+*(Screenshots to be added)*
+
+## License
+
+This project is created as a test task demonstration.
+
+## Time Taken
+
+⏱️ Approximately **45-60 minutes** including:
+- Project setup and configuration
+- Component development
+- Page implementation
+- Styling and responsive design
+- Testing and refinement
+- Documentation
